@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'MedievalSharp', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Courgette', cursive;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(87, 11, 87);
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.partimento {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .partimento,
+section .partimento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Mangas img{
+    height: 360px;
+}
+
+body {
+    background-color: rgb(200, 190, 209);
+}
+
+.Mangas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Mangas li {
+    display: inline;
+    justify-content: space-between;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .partimento {
+    display: block;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: rgb(87, 11, 87);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(97, 38, 97);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: rgb(87, 11, 87);
+    color: white;
+    padding: 16px 0;
+}
